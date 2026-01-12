@@ -60,3 +60,19 @@ We explore two main architectural approaches to solve the segmentation task:
 ├── model.py            # Definitions of U-Net and U-Net++ architectures
 ├── requirements.txt    # List of required Python libraries
 └── train.py            # Main script for training the models
+
+## 📦 **requirements.txt**
+
+```txt
+torch
+torchvision
+segmentation-models-pytorch
+albumentations
+opencv-python
+numpy
+matplotlib
+scikit-learn
+pillow
+tqdm
+streamlit
+pandas
